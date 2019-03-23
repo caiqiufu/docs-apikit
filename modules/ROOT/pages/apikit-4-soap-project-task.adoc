@@ -18,6 +18,8 @@ image::apikit-4-project.png[]
 +
 The new project appears and has a `src/main/resources/api` folder that contains the WSDL file.
 +
+. Right click wsdl file and select menu "Mule->Generate flows from wsdl".
++
 . Right-click a blank area of the canvas and choose the option to run the project.
 . Go to `+http://localhost:8081/TshirtService/TshirtServicePort?wsdl+`.
 +
